@@ -1,0 +1,64 @@
+{
+    "VERSION": [0, 2, 1],
+    "LAYER_TITLE": "LAYER_DATA", 
+    "DEFAULT_LAYER_SETTINGS": { 
+        "RIGIFY": [ 
+                    {"name": "Face",            "h_item": false,   "h_item_end": false, "layer": 0 },
+                    {"name": "Face (Primary)",  "h_item": true,    "h_item_end": false, "layer": 1 },
+                    {"name": "Face (Secondary)","h_item": true,    "h_item_end": true , "layer": 2 },
+                    {"name": "Torso",           "h_item": false,   "h_item_end": false, "layer": 3 },
+                    {"name": "Torso (Tweak)",   "h_item": false,   "h_item_end": false, "layer": 4 },
+                    {"name": "Fingers",         "h_item": false,   "h_item_end": false, "layer": 5 },
+                    {"name": "Fingers (Detail", "h_item": false,   "h_item_end": false, "layer": 6 },
+                    {"name": "Arm.L (IK)",      "h_item": true,    "h_item_end": false, "layer": 7 },
+                    {"name": "Arm.R (IK)",      "h_item": true,    "h_item_end": true , "layer": 10},
+                    {"name": "Arm.L (FK)",      "h_item": true,    "h_item_end": false, "layer": 8 },
+                    {"name": "Arm.R (FK)",      "h_item": true,    "h_item_end": true , "layer": 11},
+                    {"name": "Arm.L (Tweak)",   "h_item": true,    "h_item_end": false, "layer": 9 },
+                    {"name": "Arm.R (Tweak)",   "h_item": true,    "h_item_end": true , "layer": 12},
+                    {"name": "Leg.L (IK)",      "h_item": true,    "h_item_end": false, "layer": 13},
+                    {"name": "Leg.R (IK)",      "h_item": true,    "h_item_end": true , "layer": 16},
+                    {"name": "Leg.L (FK)",      "h_item": true,    "h_item_end": false, "layer": 14},
+                    {"name": "Leg.R (FK)",      "h_item": true,    "h_item_end": true , "layer": 17},
+                    {"name": "Leg.L (Tweak)",   "h_item": true,    "h_item_end": false, "layer": 15},
+                    {"name": "Leg.R (Tweak)",   "h_item": true,    "h_item_end": false, "layer": 18},
+                    {"name": "Root",            "h_item": false,   "h_item_end": false, "layer": 28}],
+        "RIGIFY METARIG": [
+                    {"name": "Face",            "h_item": false,    "h_item_end": false, "layer": 0 },
+                    {"name": "Torso",           "h_item": false,    "h_item_end": false, "layer": 3 },
+                    {"name": "Hands",           "h_item": false,    "h_item_end": false, "layer": 5 },
+                    {"name": "Left Arm",        "h_item": true,     "h_item_end": false, "layer": 7 },
+                    {"name": "Right Arm",       "h_item": true,     "h_item_end": true,  "layer": 10},
+                    {"name": "Left Leg",        "h_item": true,     "h_item_end": false, "layer": 13},
+                    {"name": "Right Leg",       "h_item": true,     "h_item_end": true,  "layer": 16}],
+        "RIGIFY BASIC": [ 
+                    {"name": "Torso",           "h_item": false,    "h_item_end": false, "layer": 3 },
+                    {"name": "Torso (Tweak)",   "h_item": false,    "h_item_end": false, "layer": 4 },
+                    {"name": "Arm.L (IK)",      "h_item": true,     "h_item_end": false, "layer": 7 },
+                    {"name": "Arm.R (IK)",      "h_item": true,     "h_item_end": true,  "layer": 10},
+                    {"name": "Arm.L (FK)",      "h_item": true,     "h_item_end": false, "layer": 8 },
+                    {"name": "Arm.R (FK)",      "h_item": true,     "h_item_end": true,  "layer": 11},
+                    {"name": "Arm.L (Tweak)",   "h_item": true,     "h_item_end": false, "layer": 9 },
+                    {"name": "Arm.R (Tweak)",   "h_item": true,     "h_item_end": true,  "layer": 12},
+                    {"name": "Leg.L (IK)",      "h_item": true,     "h_item_end": false, "layer": 13},
+                    {"name": "Leg.R (IK)",      "h_item": true,     "h_item_end": true,  "layer": 16},
+                    {"name": "Leg.L (FK)",      "h_item": true,     "h_item_end": false, "layer": 14},
+                    {"name": "Leg.R (FK)",      "h_item": true,     "h_item_end": true,  "layer": 17},
+                    {"name": "Leg.L (Tweak)",   "h_item": true,     "h_item_end": false, "layer": 15},
+                    {"name": "Leg.R (Tweak)",   "h_item": true,     "h_item_end": true,  "layer": 18},
+                    {"name": "Root",            "h_item": false,    "h_item_end": false, "layer": 28}],
+        "RIGIFY METARIG BASIC": [
+                    {"name": "Torso",           "h_item": false,    "h_item_end": false, "layer": 3 },
+                    {"name": "Left Arm",        "h_item": true,     "h_item_end": false, "layer": 7 },
+                    {"name": "Right Arm",       "h_item": true,     "h_item_end": true,  "layer": 10},
+                    {"name": "Left Leg",        "h_item": true,     "h_item_end": false, "layer": 13},
+                    {"name": "Right Leg",       "h_item": true,     "h_item_end": true,  "layer": 16}],
+        "OTHER RIG": [        
+                    {"name": "Layer", "h_item": false, "layer": 0 }]
+    },
+    "PERF_MODIFIERS": {
+        "Note": "If you want to add modifiers to this list, you have to add an operator in RigEdit.py for the active toggle to display properly. More details can be found in the Docs",
+        "SUBSURF": {"name": "Subsurf", "prop": "levels", "def_value": 1, "def_active": true, "drivers": []},
+        "SMOOTH": {"name": "Smooth", "prop": "factor", "def_value": 0.5, "def_active": true, "drivers": []}
+    }
+}
